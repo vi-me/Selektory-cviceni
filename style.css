@@ -54,11 +54,11 @@ section:nth-child(2n) {
   background-color: white;
 }
 
-.contact .photo {
+section > img {
   border: solid 3px lightblue;
 }
 
-.buttons img:hover {
+section div img:hover {
   transition: 0.5s;
   transform: scale(1.3);
   cursor: pointer;
